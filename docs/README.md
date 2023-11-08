@@ -16,4 +16,4 @@ $ python3 ExploitHelper.py
 
 <h2> Example</h2>
 
-![Example](./example1.png)
+<img src="./example1.png"></img>
