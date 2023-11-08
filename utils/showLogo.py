@@ -1,5 +1,7 @@
-from colorama import init,Fore ;
+#imports
 
+# Logo
+from colorama import Fore
 
 
 logo =  """                       
@@ -20,25 +22,9 @@ logo =  """
                `,!(|>|<c|/^_ .-))<==+|<=||/,  _\\|^\()+!-`                                            
          ___      __        __    ___       ___       __   ___  __  
         |__  \_/ |__) |    /  \ |  |  |__| |__  |    |__) |__  |__) 
-        |___ / \ |    |___ \__/ |  |  |  | |___ |___ |    |___ |  \ 
-                                                            
-  """
+        |___ / \ |    |___ \__/ |  |  |  | |___ |___ |    |___ |  \                                                     
+   """
 
+ # Show logo
 def showLogo():
- print(Fore.MAGENTA+logo);
-
-
-def main():    
- print("WHAT DO YOU WANT?")
- option = input("""
-  Options:
-  1. Exploits
-  2. Payloads
-  3. tools
-  4. help
-  """) 
-
-if __name__ == "__main__":
-    init();
-    showLogo();
-    main();
+  print(Fore.MAGENTA+logo);
